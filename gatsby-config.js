@@ -32,7 +32,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-plagin-mdx',
+      resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.md', '.mdx'],
         gatsbyRemarkPlugins: [
@@ -46,7 +46,7 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-plagin-google-fonts",
+      resolve: "gatsby-plugin-google-fonts",
       options: {
         fonts: [
           'roboto mono',
