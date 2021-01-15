@@ -1,8 +1,8 @@
 import React from "react"
-import { Container } from "../components"
+import { Conteiner } from "../components"
 
 const IndexPage = () => {
-  return (<Container>Hello world!</Container>)
+  return (<Conteiner>Hello world!</Conteiner>)
 }
 
 export default IndexPage
